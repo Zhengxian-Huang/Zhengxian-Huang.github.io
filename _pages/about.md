@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "About me"
-excerpt: "About me"
+title: "Welcome to Zhengxian Huang's Homepage"
+excerpt: "**About me**"
 author_profile: true
 redirect_from: 
   - /about/
