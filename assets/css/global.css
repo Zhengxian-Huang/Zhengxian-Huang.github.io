@@ -171,3 +171,7 @@ div.lazy {
     font-size: 0.95em;
     white-space: nowrap;
 }
+
+.profile-author {
+    color: #748e63 !important;
+}

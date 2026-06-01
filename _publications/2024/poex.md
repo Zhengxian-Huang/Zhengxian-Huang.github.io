@@ -14,7 +14,7 @@ abstract: >-
 cover:          /assets/images/covers/poex.png
 authors:
   - Xuancun Lu
-  - <b>Zhengxian Huang</b>
+  - Zhengxian Huang
   - Xinfeng Li
   - Chi Zhang
   - Xiaoyu Ji

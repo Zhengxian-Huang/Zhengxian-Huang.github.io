@@ -13,7 +13,7 @@ abstract: >-
   the first targeted behavior-hijacking adversarial attack against CoT-reasoning VLA models via adversarial patch.
 cover:          /assets/images/covers/trap.jpg
 authors:
-  - <b>Zhengxian Huang</b>
+  - Zhengxian Huang
   - Wenjun Zhu
   - Haoxun Qiu
   - Xiaoyu Ji†
