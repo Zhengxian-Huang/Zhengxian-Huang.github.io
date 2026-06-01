@@ -5,9 +5,21 @@ body {
     padding-top: 5.0rem;
 }
 
+.footer {
+    font-size: 0.9375rem;
+}
+
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: 700;
+}
+
+a {
+    color: #748e63;
+}
+
+a:hover {
+    color: #536f46;
 }
 
 .card {
@@ -43,9 +55,23 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .navbar {
-    background-color: rgba(255, 255, 255, 0.6) !important;
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
+    background-color: rgba(32, 39, 49, 0.8) !important;
+    font-family: "Source Code Pro", monospace;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+    color: #b8d69f;
+}
+
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+    color: #ffffff;
+    font-weight: 700;
 }
 
 .inline-badge {
@@ -53,6 +79,28 @@ h1, h2, h3, h4, h5, h6,
     vertical-align: -10%;
     margin-right: 2px;
     line-break: unset;
+}
+
+/* Education logos (_includes/widgets/experience_card.html) */
+.experience-inline-logo {
+    height: 24px;
+    width: auto;
+}
+
+.position-inline-logo {
+    max-height: 1.2em;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.profile-portrait-container {
+    display: block;
+    text-align: center;
+}
+
+.profile-portrait {
+    width: 100%;
+    max-width: 160px;
 }
 
 .no-break {
@@ -86,6 +134,36 @@ div.lazy {
 
 .badge-publication {
     font-size: 100%;
+}
+
+.publication-cover {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.publication-container {
+    position: relative;
+}
+
+.publication-venue {
+    font-style: italic;
+    font-weight: 700;
+}
+
+.pub-badge {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    padding: 2px 8px;
+    border-radius: 12px;
+    background-color: #28a745;
+    color: #fff;
+    font-size: 0.7em;
+    font-weight: 700;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    z-index: 10;
 }
 
 .email-text {
